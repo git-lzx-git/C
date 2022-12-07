@@ -5,6 +5,7 @@ int main () {
 	double frac;
 	double sum = 0;
 	scanf("%d", &n);	
+	if (n>0) {
 	printf("f(%d) =", n);
 	do {
 	frac = 1.0 / i;		
@@ -17,6 +18,9 @@ int main () {
 	i ++;
 	} while (i<n+1);
 	printf(" = %f\n", sum);
+	} else {
+	printf("not invalid\n");
+	}
 
 	return 0;
 }
