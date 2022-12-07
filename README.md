@@ -1,1 +1,1 @@
-There are some C practices.
+Here are some of my C language exercises.
